@@ -1,0 +1,74 @@
+.Home {
+    .gallaryPost {
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        .Section1 {
+            width: 70%;
+
+            .img {
+                max-width: 100%;
+            } 
+        }
+        .Section2 {
+            width: 25%;
+            .div {
+                height: (90%/3);
+                .img {
+                    max-width: 100%;
+                    background-size: cover;
+                    } 
+                }
+        }
+
+        
+    }
+
+    .Section3 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .div1 {
+            width: 70%;
+
+                .img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    background-size: cover;
+                }
+            
+        }
+        .div2 {
+            width: 25%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Home {
+        .gallaryPost {
+            height: 200px;
+            .Section1 {
+                width: 70%;
+            }  
+        }
+    
+        .Section3 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+    
+            .div1 {
+                width: 60%;
+            }
+            .div2 {
+                width: 38%;
+            }
+        }
+    }
+    
+    }

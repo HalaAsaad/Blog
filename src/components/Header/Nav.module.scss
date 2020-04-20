@@ -1,0 +1,22 @@
+.Nav {
+    max-width: 100%;
+    .Ui {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .Nav {
+        .Ui {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+        
+        }
+    
+    }
+    }

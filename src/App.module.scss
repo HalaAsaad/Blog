@@ -1,0 +1,39 @@
+$maincolor: #565673;
+$secColor: #565673;
+$backGroundColor: #e9eaed;
+body {
+    background-color: $backGroundColor;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.App {
+   width: 90%;
+   margin: 0 auto;
+
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 13px;
+    color: $maincolor;
+    height: 40px;
+
+    & a {
+        text-decoration: none;
+        color: $secColor;
+    }
+}
+@media screen and (max-width: 500px){
+    .App {
+        width: 90%;
+        margin: 0 auto;
+    .Footer{
+        font-size: 7px;
+        height: 20px;
+    }
+
+}
+}
+  }

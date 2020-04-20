@@ -1,0 +1,48 @@
+.Header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    .divIcons {
+        max-width: 25%;
+        .Icon {
+            color: #565673;
+            margin: 0 6px;
+
+            &:hover {
+                color: #5f9ea0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Header {
+        position: relative;
+        .ul{
+            position: absolute;
+            max-width: 70%;
+            left: -25px;
+        }
+        .divIcons {
+            display: none;
+        }
+    }
+    }
+    @media screen and (max-width: 440px) {
+        .Header {
+            .ul{
+                left: -55px;
+            }
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .Header {
+            .ul{
+                font-size: 12px;
+                font-weight: 300px;
+            }
+        }
+    }

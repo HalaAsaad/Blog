@@ -1,0 +1,56 @@
+.Navbar {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    .NavbarMenu {
+        margin: 0px ;
+        padding: 0px;
+        li {
+            list-style: none;
+            display: inline-block;
+           
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                color: #565673;
+                font-weight:400px;
+                font-size: 20px;
+                display: block;
+                padding: 0 10px;
+                
+            }
+        }
+    }
+
+    .Search {
+        .SearchForm {
+        display: flex;
+        margin: 0px 10px;
+
+        .active {
+            width: 150px;
+            transition: width 0.3s ease-in;
+        }
+        .SearchInput {
+            border: 0;
+            width: 0;
+           
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .SearchIcon {
+            cursor: pointer;
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .Navbar {
+        display: none;
+    }
+    }

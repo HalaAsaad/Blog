@@ -1,0 +1,41 @@
+.img {
+    max-width: 100%;
+     max-height: 100%;
+}
+.div {
+    margin-top: 15px;
+
+    .span1 {
+        color:#6c6c6c;
+        letter-spacing: 1px;
+        font-Size: 16px;
+        font-weight: 500px ;
+        margin:0px
+    }
+    .span2 {
+        font-Size: 15px;
+        font-weight: 600px;
+        font-style: italic;
+        padding: 10px 0px;
+        color: #6c6c6c
+    }
+    .p {
+        color: #6c6c6c;
+        font-Weight: 300px;
+        letter-spacing: 1px;
+        padding-bottom: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .div {
+        .h2 {
+            font-size: 14px;
+            font-weight: 300px;
+        }
+        .p {
+            letter-spacing: normal;
+            font-weight: 200px;
+        }
+    }
+}

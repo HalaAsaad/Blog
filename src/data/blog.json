@@ -1,0 +1,49 @@
+{
+    "data":[
+        {
+            "id":1,
+            "blogCategory":"featured",
+            "blogTitle":"Fitness Mantra To Live Fit Life",
+            "postedOn":"July 21,2019",
+            "author":"Faiz Khan",
+            "blogImage":"img1.jpg",
+            "blogText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing"
+        },
+        {
+            "id":2,
+            "blogCategory":"Simple",
+            "blogTitle":"Beautiful & Special Moment",
+            "postedOn":"May 03,2019",
+            "author":"Hasan Ahmad",
+            "blogImage":"img2.jpg",
+            "blogText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing"
+        },
+        {
+            "id":3,
+            "blogCategory":"Enviroment",
+            "blogTitle":"Enviroment and its importance",
+            "postedOn":"Apr 02,2019",
+            "author":"hasan Ahmad",
+            "blogImage":"img3.jpg",
+            "blogText":"Environment is everything that is around us. It can be living (biotic) or non-living (abiotic) things. It includes physical, chemical and other natural forces. Living things live in their environment. Since everything is part of the environment of something else, Environmental pollution is one of the key problems faced in our modern world. Though there have been massive technological advancement in these recent days, it has also invited negative effects to the environment. By doing a simple thing like planting a tree, we shall be making the world a better place and for sure we shall always live to be proud of our achievement."
+        },
+        {
+            "id":4,
+            "blogCategory":"Life on mars",
+            "blogTitle":"Life on Mars",
+            "postedOn":"jan 02,2019",
+            "author":"hasan Ahmad",
+            "blogImage":"img4.jpg",
+            "blogText":"The possibility of life on Mars is a subject of significant interest in astrobiology due to its proximity and similarities to Earth. To date, no proof has been found of past or present life on Mars. Cumulative evidence shows that during the ancient Noachian time period, the surface environment of Mars had liquid water and may have been habitable for microorganisms. The existence of habitable conditions does not necessarily indicate the presence of life Scientific searches for evidence of life began in the 19th century, and continue today via telescopic investigations and deployed probes. While early work focused on phenomenology and bordered on fantasy, the modern scientific inquiry has emphasized the search for water, chemical biosignatures in the soil and rocks at the planet's surface, and biomarker gases in the atmosphere ."
+        },
+        {
+            "id":5,
+            "blogCategory":"Ai and health care",
+            "blogTitle":"Ai and health care",
+            "postedOn":"Feb 21,2019",
+            "author":"Mary dan",
+            "blogImage":"img5.jpg",
+            "blogText":"the complexity and rise of data in healthcare means that artificial intelligence (AI) will increasingly be applied within the field. Several types of AI are already being employed by payers and providers of care, and life sciences companies. The key categories of applications involve diagnosis and treatment recommendations, patient engagement and adherence, and administrative activities. Although there are many instances in which AI can perform healthcare tasks as well or better than humans, implementation factors will prevent large-scale automation of healthcare professional jobs for a considerable period. Ethical issues in the application of AI to healthcare are also discussed. Artificial intelligence (AI) and related technologies are increasingly prevalent in business and society, and are beginning to be applied to healthcare. These technologies have the potential to transform many aspects of patient care, as well as administrative processes within provider, payer and pharmaceutical organisations. There are already a number of research studies suggesting that AI can perform as well as or better than humans at key healthcare tasks, such as diagnosing disease. Today, algorithms are already outperforming radiologists at spotting malignant tumours, and guiding researchers in how to construct cohorts for costly clinical trials. However, for a variety of reasons, we believe that it will be many years before AI replaces humans for broad medical process domains. In this article, we describe both the potential that AI offers to automate aspects of care and some of the barriers to rapid implementation of AI in healthcare."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+.NavbarItem {
+    .Link{
+        padding: 0 10px;
+        text-decoration: none;
+        color: #565673;
+        font-size: 15px;
+        letter-spacing: 1.3px;
+         &:hover {
+            color: #5f9ea0;
+            text-decoration: underline
+         }
+     }
+}
+
+@media screen and (max-width: 500px){
+    .NavbarItem {
+        margin-left: 1px;
+        position: relative;
+        left: -30px;
+    }
+    }
+    @media screen and (max-width: 350px) {
+        .NavbarItem {
+            .Link{
+                font-size: 12px;
+                letter-spacing: normal;
+            }
+        }
+    }
