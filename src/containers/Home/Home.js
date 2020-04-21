@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import classes from './Home.module.scss';
 import {  Sidebar, Card } from '../../components/index';
 import  RecentPosts  from './RecentPosts/ResentPosts'
+import { ColorContext ,IsDarkContext } from '../../contexts/ThemeContext';
 
 function Home() {
     const [imgs,setImgs] = useState ([
@@ -9,11 +10,15 @@ function Home() {
         "img2.jpg",
         "img1.jpg"
     ]);
+
+    const  color  = useContext(ColorContext);
+    const  IsDark = useContext(IsDarkContext);
+    const theme = IsDark ? color : "";
       
     return (
-        <div className={classes.Home}>
+        <div className={classes.Home}  style={{color:theme.syntax}}>
             <Card>
-                <div className={classes.gallaryPost}>
+                <div className={classes.gallaryPost}  style={{color:theme.syntax}}>
                     <section className={classes.Section1}>
                         <div>
                             <img className={classes.img} src={require("../../blogPostImages/home.jpg")} />
@@ -31,7 +36,7 @@ function Home() {
                 </div>
             </Card>
 
-            <section className={classes.Section3}>
+            <section className={classes.Section3}  style={{color:theme.syntax}}>
                 <div className={classes.div1}>
                   <RecentPosts img='100%' />
                   </div>  

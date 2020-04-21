@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState , useContext } from 'react';
 import classes from './Navbar.module.scss';
 import SearchIcon from '@material-ui/icons/Search';
 import { Nav} from '../index';
+import { ColorContext, IsDarkContext } from '../../contexts/ThemeContext';
 
 
 function Navbar() {
     const [search, setSearch] = useState(false);
-    const [searchValue, setSearchValue] = useState('')
+    const [searchValue, setSearchValue] = useState('');
+
+    const  color  = useContext(ColorContext);
+    const  IsDark = useContext(IsDarkContext);
+    const theme = IsDark ? color : "";
 
     const submitSearch = e => {
          e.preventDefault();
@@ -18,7 +23,7 @@ function Navbar() {
     }
 
     return (
-        <div className={classes.Navbar}>
+        <div className={classes.Navbar} style={{backgroundColor:theme.bg}}>
            <ul className={classes.NavbarMenu}>
               <Nav />
            </ul>
