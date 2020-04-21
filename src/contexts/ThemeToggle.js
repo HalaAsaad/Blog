@@ -11,7 +11,7 @@ const ThemeToggle = () => {
                          zIndex:"5",
                          borderRadius:'10px',
                          left:"0px",
-                         top:"150px",
+                         top:"120px",
                          color:"#5f9ea0",
                          backgroundColor:"#e9eaed",
                          cursor:"pointer"}}>
